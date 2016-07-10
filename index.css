@@ -1,0 +1,80 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #e2e2e2;
+}
+
+#container {
+  background-color: white;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #373737;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav {
+  background-color: black;
+  padding: 0 20px;
+}
+
+#nav a {
+  font-size: 14px;
+  color: #eee;
+  padding: 18px 14px;
+  line-height: 52px;
+}
+
+#nav a:hover, #nav a.current {
+	background: #f9f9f9; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
+	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */
+	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
+	color: #373737;
+}
+
+#content {
+  padding: 30px;
+
+}
+
+#content a {
+  color: #1982d1;
+}
+
+.lw, .eventdurations, .bibleclipper {
+  max-width: 450px;
+}
+
+.wdiffer {
+  max-width: 650px;
+}
+
+.bibleclipper {
+  max-width: 750px;
+}
+
+#content img {
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
